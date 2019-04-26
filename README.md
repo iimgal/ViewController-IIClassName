@@ -22,7 +22,7 @@ pod 'IIClassName'
 
 ## Author
 
-EthanZhang, zhangyicheng@imo.im
+EthanZhang, iimgal@163.com
 
 ## License
 
