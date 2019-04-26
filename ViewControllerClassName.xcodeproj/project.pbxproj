@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94B85038227302AA00169BB3 /* UIViewController+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B85037227302AA00169BB3 /* UIViewController+ClassName.m */; };
 		DE85909521B679AC006AF492 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE85909421B679AC006AF492 /* AppDelegate.m */; };
 		DE85909821B679AC006AF492 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE85909721B679AC006AF492 /* ViewController.m */; };
 		DE85909B21B679AC006AF492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE85909921B679AC006AF492 /* Main.storyboard */; };
 		DE85909D21B679AF006AF492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE85909C21B679AF006AF492 /* Assets.xcassets */; };
 		DE8590A021B679AF006AF492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE85909E21B679AF006AF492 /* LaunchScreen.storyboard */; };
 		DE8590A321B679AF006AF492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8590A221B679AF006AF492 /* main.m */; };
-		DE8590AD21B679AF006AF492 /* ViewControllerClassNameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8590AC21B679AF006AF492 /* ViewControllerClassNameTests.m */; };
-		DE8590B821B679AF006AF492 /* ViewControllerClassNameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8590B721B679AF006AF492 /* ViewControllerClassNameUITests.m */; };
-		DE8590C821B67A03006AF492 /* UIViewController+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8590C621B67A03006AF492 /* UIViewController+ClassName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94B85036227302AA00169BB3 /* UIViewController+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ClassName.h"; path = "IIClassName/IIClassName/Classes/UIViewController+ClassName.h"; sourceTree = SOURCE_ROOT; };
+		94B85037227302AA00169BB3 /* UIViewController+ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ClassName.m"; path = "IIClassName/IIClassName/Classes/UIViewController+ClassName.m"; sourceTree = SOURCE_ROOT; };
 		DE85909021B679AC006AF492 /* ViewControllerClassName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerClassName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE85909321B679AC006AF492 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE85909421B679AC006AF492 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,13 +47,7 @@
 		DE8590A121B679AF006AF492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE8590A221B679AF006AF492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE8590A821B679AF006AF492 /* ViewControllerClassNameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerClassNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8590AC21B679AF006AF492 /* ViewControllerClassNameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerClassNameTests.m; sourceTree = "<group>"; };
-		DE8590AE21B679AF006AF492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE8590B321B679AF006AF492 /* ViewControllerClassNameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerClassNameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8590B721B679AF006AF492 /* ViewControllerClassNameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerClassNameUITests.m; sourceTree = "<group>"; };
-		DE8590B921B679AF006AF492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE8590C621B67A03006AF492 /* UIViewController+ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ClassName.m"; sourceTree = "<group>"; };
-		DE8590C721B67A03006AF492 /* UIViewController+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ClassName.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				DE85909221B679AC006AF492 /* ViewControllerClassName */,
-				DE8590AB21B679AF006AF492 /* ViewControllerClassNameTests */,
-				DE8590B621B679AF006AF492 /* ViewControllerClassNameUITests */,
 				DE85909121B679AC006AF492 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,29 +110,11 @@
 			path = ViewControllerClassName;
 			sourceTree = "<group>";
 		};
-		DE8590AB21B679AF006AF492 /* ViewControllerClassNameTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE8590AC21B679AF006AF492 /* ViewControllerClassNameTests.m */,
-				DE8590AE21B679AF006AF492 /* Info.plist */,
-			);
-			path = ViewControllerClassNameTests;
-			sourceTree = "<group>";
-		};
-		DE8590B621B679AF006AF492 /* ViewControllerClassNameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE8590B721B679AF006AF492 /* ViewControllerClassNameUITests.m */,
-				DE8590B921B679AF006AF492 /* Info.plist */,
-			);
-			path = ViewControllerClassNameUITests;
-			sourceTree = "<group>";
-		};
 		DE8590C521B679FE006AF492 /* ViewController+ClassName */ = {
 			isa = PBXGroup;
 			children = (
-				DE8590C721B67A03006AF492 /* UIViewController+ClassName.h */,
-				DE8590C621B67A03006AF492 /* UIViewController+ClassName.m */,
+				94B85036227302AA00169BB3 /* UIViewController+ClassName.h */,
+				94B85037227302AA00169BB3 /* UIViewController+ClassName.m */,
 			);
 			path = "ViewController+ClassName";
 			sourceTree = "<group>";
@@ -277,7 +251,7 @@
 			files = (
 				DE85909821B679AC006AF492 /* ViewController.m in Sources */,
 				DE8590A321B679AF006AF492 /* main.m in Sources */,
-				DE8590C821B67A03006AF492 /* UIViewController+ClassName.m in Sources */,
+				94B85038227302AA00169BB3 /* UIViewController+ClassName.m in Sources */,
 				DE85909521B679AC006AF492 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8590AD21B679AF006AF492 /* ViewControllerClassNameTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8590B821B679AF006AF492 /* ViewControllerClassNameUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
