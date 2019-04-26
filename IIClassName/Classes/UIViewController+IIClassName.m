@@ -58,6 +58,8 @@ static UIViewController * __currentShowControler = nil;
             method_exchangeImplementations(originalMethod, swizzledMethod);
         }
     });
+    
+    [UIViewController displayClassName:YES];
 }
 
 #pragma mark - Method Swizzling
