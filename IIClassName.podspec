@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IIClassName'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IIClassName.'
+  s.summary          = 'Show current view controllers classname'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/EthanZhang/IIClassName'
+  s.homepage         = 'https://github.com/iimgal/ViewController-IIClassName'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'EthanZhang' => 'zhangyicheng@imo.im' }
-  s.source           = { :git => 'https://github.com/EthanZhang/IIClassName.git', :tag => s.version.to_s }
+  s.author           = { 'EthanZhang' => 'iimgal@163.com' }
+  s.source           = { :git => 'https://github.com/iimgal/ViewController-IIClassName.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
