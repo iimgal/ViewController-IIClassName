@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (ClassName)
+@interface UIViewController (IIClassName)
 
 + (void)displayClassName:(BOOL)yesOrNo; 
 

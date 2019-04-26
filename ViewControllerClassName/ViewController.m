@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIViewController+ClassName.h"
+#import "UIViewController+IIClassName.h"
 
 @interface ViewController ()
 

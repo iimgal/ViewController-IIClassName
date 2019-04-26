@@ -6,7 +6,7 @@
 //  Copyright © 2018年 com.david. All rights reserved.
 //
 
-#import "UIViewController+ClassName.h"
+#import "UIViewController+IIClassName.h"
 #import <objc/runtime.h>
 
 #define kClassNameTag 20000
@@ -14,7 +14,7 @@
 static BOOL displayClassName = NO;
 static UIViewController * __currentShowControler = nil;
 
-@implementation UIViewController (ClassName)
+@implementation UIViewController (IIClassName)
 
 + (void)displayClassName:(BOOL)yesOrNo {
     displayClassName = yesOrNo;
